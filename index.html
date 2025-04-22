@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Navigation Bar</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background: #fff;
+      padding:  0px 0;
+    }
+    .nav-item {
+      flex: 1;
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+      text-decoration: none;
+      padding: 10px 0;
+      transition: background 0.3s;
+      border-bottom: 2px solid red;
+    }
+    .nav-item:hover {
+      background-color: #f5f5f5;
+    }
+    .nav-item.active {
+      background-color: #aaa;
+      color: white;
+      border-bottom: #555;
+    }
+    .nav-item svg {
+      display: block;
+      margin: 0 auto 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#" class="nav-item active"><i data-lucide="rabbit"></i>Home</a>
+  <a href="#" class="nav-item"><i data-lucide="circle-dot"></i>Pokédex</a>
+  <a href="#" class="nav-item"><i data-lucide="gamepad-2"></i>Video Games & Apps</a>
+  <a href="#" class="nav-item"><i data-lucide="credit-card"></i>Trading Card Game</a>
+  <a href="#" class="nav-item"><i data-lucide="play-circle"></i>Animation</a>
+  <a href="#" class="nav-item"><i data-lucide="trophy"></i>Play! Pokémon Events</a>
+  <a href="#" class="nav-item"><i data-lucide="newspaper"></i>News</a>
+</div>
+
+<script>
+  lucide.createIcons();
+</script>
+
+</body>
+</html>
