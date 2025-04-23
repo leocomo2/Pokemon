@@ -2,56 +2,121 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Pokémon Navigation Bar</title>
+  <title>Pokémon Official Website</title>
   <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-    .navbar {
-      display: flex;
-      justify-content: center;
-      background: #fff;
-      padding:  0px 0;
-    }
-    .nav-item {
-      flex: 1;
-      text-align: center;
-      color: #555;
-      font-size: 14px;
-      text-decoration: none;
-      padding: 10px 0;
-      transition: background 0.3s;
-      border-bottom: 2px solid red;
-    }
-    .nav-item:hover {
-      background-color: #f5f5f5;
-    }
-    .nav-item.active {
-      background-color: #aaa;
-      color: white;
-      border-bottom: #555;
-    }
-    .nav-item svg {
-      display: block;
-      margin: 0 auto 5px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="head"><img src="headimg.jpg" alt="not founded"></div>
+<nav>
 <div class="navbar">
   <a href="#" class="nav-item active"><i data-lucide="rabbit"></i>Home</a>
-  <a href="#" class="nav-item"><i data-lucide="circle-dot"></i>Pokédex</a>
-  <a href="#" class="nav-item"><i data-lucide="gamepad-2"></i>Video Games & Apps</a>
-  <a href="#" class="nav-item"><i data-lucide="credit-card"></i>Trading Card Game</a>
-  <a href="#" class="nav-item"><i data-lucide="play-circle"></i>Animation</a>
-  <a href="#" class="nav-item"><i data-lucide="trophy"></i>Play! Pokémon Events</a>
-  <a href="#" class="nav-item"><i data-lucide="newspaper"></i>News</a>
+  <a href="#" class="nav-item first"><i data-lucide="circle-dot"></i>Pokédex</a>
+  <a href="#" class="nav-item second"><i data-lucide="gamepad-2"></i>Video Games & Apps</a>
+  <a href="#" class="nav-item third"><i data-lucide="credit-card"></i>Trading Card Game</a>
+  <a href="#" class="nav-item fourth"><i data-lucide="play-circle"></i>Animation</a>
+  <a href="#" class="nav-item fivth"><i data-lucide="trophy"></i>Play! Pokémon Events</a>
+  <a href="#" class="nav-item sixth"><i data-lucide="newspaper"></i>News</a>
+</div>
+</nav>
+<div class="user_dashboard">
+    <img src="dashboardimg.png" alt="not founded">
 </div>
 
+<div class="main_container">
+    <div class="container">
+    <div class="hero_section_a">
+        <div class="img">
+            <img src="hero_img1.jpg" alt="not founded">
+        </div>
+        <div class="img duo">
+            <img src="hero_img5.jpg" alt="not founded">
+            <img src="hero_img6.jpg" alt="not founded">
+        </div>
+    </div>
+    <div class="hero_section_b">
+        <div class="img">
+            <img src="hero_img2.jpg" alt="not founded">
+        </div>
+        <div class="img">
+            <img src="hero_img3.jpg" alt="not founded">
+        </div>
+        <div class="img">
+            <img src="hero_img4.jpg" alt="not founded">
+        </div>
+    </div>
+ </div>
+</div>
+<div class="cerousel">
+    <img src="cerousel.png" alt="not founded" width="1280px">
+</div>
+<div class="main_container card">
+    <div class="container">
+        <div class="hero_section_c">
+            <div class="img">
+                <img src="card_img1.png" alt="not founded">
+            </div>
+            <div class="img">
+                <img src="card_img5.png" alt="not founded">
+            </div>
+        </div>
+        <div class="hero_section_d">
+            <div class="img">
+            <img src="card_img2.png" alt="not founded">
+            </div>
+            <div class="img">
+            <img src="card_img4.png" alt="not founded">
+        </div>
+        </div>
+        <div class="hero_section_e">
+            <div class="img">
+            <img src="card_img3.png" alt="not founded">
+        </div>
+            <div class="img">
+            <img src="card_img6.png" alt="not founded">
+        </div>
+            <div class="img">
+            <img src="card_img7.png" alt="not founded">
+        </div>
+        </div>
+    </div>
+</div>
+<div class="recaptcha">
+    <img src="recaptcha.png" alt="not founded">
+</div>
+<footer>
+    <div class="footer_container">
+        <div class="footer_img">
+            <img src="footer.png" alt="not founded">
+        </div>
+    </div>
+    <div class="footer_container">
+        <div class="box first">
+            <img src="pokemon.png" alt="not founded" width="200px" height="35px">
+            <a href="">News</a>
+            <a href="">Parents Guide</a>
+            <a href="">Customer Service</a>
+            <a href="">About Our Company</a>
+            <a href="">Careers</a>
+            <a href="">Select a Country/Region</a>
+            <a href="">Press Site</a>
+
+        </div>
+        <div class="box">
+            <img src="social_icons.png" alt="not founded" width="200px" height="40px">
+        </div>
+        <div class="box border">
+            <img src="safe.png" alt="not founded" width="130px" height="50px">
+            <a href="">Terms of Use</a>
+            <a href="">Privacy Notice</a>
+            <a href="">Cookie Page</a>
+            <a href="">Legal Info</a>
+            <a href="">Security</a>
+            <a href="">©2025 Pokémon. ©1995 - 2025 Nintendo/Creatures Inc./GAME FREAK inc. TM, ®Nintendo.</a>
+        </div>
+    </div>
+</footer>
 <script>
   lucide.createIcons();
 </script>
