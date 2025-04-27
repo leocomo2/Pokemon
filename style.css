@@ -140,7 +140,7 @@ nav {
 }
 .cerousel {
   display: flex;
-  margin-left: 35px;
+  justify-content: center;
 }
 .main_container.card{
   padding-top: 50px;
